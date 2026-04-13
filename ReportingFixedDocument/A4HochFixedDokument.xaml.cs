@@ -20,8 +20,6 @@
     using ReportingLibrary.Extension;
     using ReportingLibrary.Report;
 
-    using static System.Net.WebRequestMethods;
-
     /// <summary>
     /// Interaktionslogik für A4HochFixedDokument.xaml
     /// </summary>

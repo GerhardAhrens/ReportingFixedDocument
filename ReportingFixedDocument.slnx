@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/_Doc/">
+    <File Path="FD_A4Q.png" />
+    <File Path="README.md" />
+    <File Path="ReportToolbar.png" />
+  </Folder>
+  <Project Path="ReportingFixedDocument/ReportingFixedDocument.csproj" />
+  <Project Path="ReportingLibrary/ReportingLibrary.csproj" />
+</Solution>

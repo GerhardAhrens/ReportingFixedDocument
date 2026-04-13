@@ -15,12 +15,10 @@
 
 namespace ReportingLibrary.Extension
 {
-    using System;
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Documents;
     using System.Windows.Media;
-    using System.Windows.Shapes;
 
     using RConvert = ReportingLibrary.Report.Convert;
 
@@ -35,7 +33,7 @@ namespace ReportingLibrary.Extension
             @this.Children.Add(textBlock);
         }
 
-        public static void AddFooterLeft(this FixedPage @this, string text, double fontSize, Brush? foreground = null)
+        public static void AddFooterLeft(this FixedPage @this, string text, double fontSize, Brush foreground = null)
         {
             TextBlock textBlock = new TextBlock();
             textBlock.Text = text;
@@ -54,7 +52,7 @@ namespace ReportingLibrary.Extension
             @this.Children.Add(textBlock);
         }
 
-        public static void AddFooterCenter(this FixedPage @this, string text, double fontSize, Brush? foreground = null)
+        public static void AddFooterCenter(this FixedPage @this, string text, double fontSize, Brush foreground = null)
         {
             TextBlock textBlock = new TextBlock();
             textBlock.Text = text;
@@ -73,7 +71,7 @@ namespace ReportingLibrary.Extension
             @this.Children.Add(textBlock);
         }
 
-        public static void AddFooterRight(this FixedPage @this, string text, double fontSize, Brush? foreground = null)
+        public static void AddFooterRight(this FixedPage @this, string text, double fontSize, Brush foreground = null)
         {
             TextBlock textBlock = new TextBlock();
             textBlock.Text = text;
